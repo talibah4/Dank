@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Submit your own original memes here."/>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+	<style>
+		@import 'https://fonts.googleapis.com/css?family=Emblema+One|Racing+Sans+One';
+		@import 'https://fonts.googleapis.com/css?family=Raleway';
+	</style>
+</head>
+<body>
+	<h2>dank!MEMES</h2>
+	<h3>Original Submission Form</h3>
+	<div>
+		<p id="mainnav">
+			<a href="index.html">Home</a> |
+			<a href="new.html">New Memes</a> |
+			<a href="classic.html">Classic Memes</a> |
+			<a href="featuredoriginals.html">Featured Memes</a> |
+			<a href="contact.html">Submit</a> |
+		</p>
+		<form action="upload.php" method="post" enctype="multipart/form-data">
+		  <fieldset id="contactinfo">
+		    <legend><span>Submit Your Own Meme!</span></legend>
+				<label>
+			    Name
+				<input type="text" name="name" id="nameinput"/>
+				</label>
+				<p id="blank"> - </p>
+				<label>
+			    Email
+				<input type="email" name="email" id="emailinput" placeholder="example@address.com"/>
+				</label>
+				<p id="blank"> - </p>
+				Select image to upload:
+				<input type="file" name="fileToUpload" id="fileToUpload">
+				<input type="submit" value="Upload Image" name="submit">
+		</fieldset>
+		</form>
+	</div>
+	<p> - </p>
+	<p class="description"> Attach your image file of your meme! An email will be sent to you once your meme has been posted on to our website. The meme community thanks you for being original! </p>
+	</p>
+</body>
+</html>
